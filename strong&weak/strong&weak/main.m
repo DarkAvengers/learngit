@@ -18,7 +18,7 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
     
-        __weak Person *p = [[Person alloc] init];
+        Person *p = [[Person alloc] init];
     
         p.name = @"zhangsan";
         
